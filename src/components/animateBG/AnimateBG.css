@@ -1,0 +1,160 @@
+.leaf{
+  width:60px;
+  z-index:10;
+  opacity: 0.4;
+}
+.leaf:hover{
+  opacity:1;
+}
+
+.leaf-1{ 
+  animation:leafOne 20s ease infinite;
+}
+.leaf-2{
+  animation:leafTwo 30s ease infinite;
+}
+.leaf-3{
+  animation:leafThree 20s ease infinite;
+}
+.leaf-4{
+  animation:leafFour 20s ease infinite;
+}
+.leaf-5{
+  animation:leafFive 20s ease infinite;
+}
+.leaf-6{
+  animation:leafSix 20s ease infinite;
+}
+
+@keyframes leafOne {
+  0%{
+    transform: 
+    translateX(-1)
+    translateY(0)
+  }
+ 
+  100%{
+    transform:
+    translateX(900%)
+    translateY(800%)
+  }
+  
+}
+
+@keyframes leafTwo {
+  0%{
+    transform: 
+    translateX(1500%)
+    translateY(-1)
+  }
+
+  50%{
+    transform:
+    translateX(1500%)
+    translateY(1500%)
+  }
+  75%{
+    transform: 
+    translateX(200%)
+    translateY(500%)
+  }
+  100%{
+    transform: 
+    translateX(1500%)
+    translateY(-1)
+  }
+  
+}
+
+@keyframes leafThree {
+  0%{
+    transform: 
+    translateX(-1)
+    translateY(0)
+  }
+  50%{
+    transform: 
+    translateX(200%)
+    translateY(2000%)
+  }
+  75%{
+    transform: 
+    translateX(200%)
+    translateY(500%)
+  }
+  100%{
+    transform: 
+    translateX(-1)
+    translateY(0)
+  }
+  
+}
+
+@keyframes leafFour{
+  0%{
+    transform: 
+      translateX(1500%)
+      translateY(-50%)
+  }
+  50%{
+    transform: 
+    translateX(800%)
+    translateY(1800%)
+  }
+  75%{
+    transform: 
+    translateX(1000%)
+    translateY(1500%)
+  }
+  100%{
+    transform: 
+      translateX(1500%)
+      translateY(-50%)
+  }
+}
+
+@keyframes leafFive{
+  0%{
+    transform: 
+      translateX(1000%)
+      translateY(-100%)
+  }
+  50%{
+    transform:
+      translateX(800%)
+      tranlateY(1500%)
+  }
+  75%{
+    transform: 
+      translateX(1000%)
+      translateY(1000%)
+  }
+  100%{
+    transform: 
+      translateX(1000%)
+      translateY(-100%)
+  }
+}
+
+@keyframes leafSix{
+  0%{
+    transform: 
+      translateX(1500%)
+      translateY(100%)
+  }
+  50%{
+    transform:
+      translateX(800%)
+      tranlateY(1300%)
+  }
+  75%{
+    transform: 
+      translateX(1000%)
+      translateY(1000%)
+  }
+  100%{
+    transform: 
+      translateX(1500%)
+      translateY(100%)
+  }
+}
