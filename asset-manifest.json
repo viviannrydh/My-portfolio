@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/VR-portfolio.git/static/css/main.be8664d0.css",
+    "main.js": "/VR-portfolio.git/static/js/main.d11bcad9.js",
+    "static/media/CanadaCountryRoad.jpg": "/VR-portfolio.git/static/media/CanadaCountryRoad.ea937027adb834f245e2.jpg",
+    "static/media/movieAPI.jpg": "/VR-portfolio.git/static/media/movieAPI.ebe1e187b002dbc0ad7c.jpg",
+    "static/media/Malaga.png": "/VR-portfolio.git/static/media/Malaga.7c737b6b7bd7ec21525f.png",
+    "static/media/mathApp.jpg": "/VR-portfolio.git/static/media/mathApp.38d314cc2f384c6a7f94.jpg",
+    "static/media/amazon-clone.jpg": "/VR-portfolio.git/static/media/amazon-clone.f1373f9eba080fa1237a.jpg",
+    "static/media/selfie-without-whitecircle.png": "/VR-portfolio.git/static/media/selfie-without-whitecircle.945f7959ba0386decee5.png",
+    "static/media/selfie.jpg": "/VR-portfolio.git/static/media/selfie.4b67c4b1f1e6482f389e.jpg",
+    "static/media/todos.jpg": "/VR-portfolio.git/static/media/todos.771873756e76938ff541.jpg",
+    "static/media/logo.png": "/VR-portfolio.git/static/media/logo.89ebe939e36e48f63e2f.png",
+    "static/media/react.png": "/VR-portfolio.git/static/media/react.a544fd8cf64d82898e91.png",
+    "static/media/LOGOVR.png": "/VR-portfolio.git/static/media/LOGOVR.8a0f2c218957cec3c258.png",
+    "static/media/skills.png": "/VR-portfolio.git/static/media/skills.5fcf0cac5addec498419.png",
+    "static/media/html.jpg": "/VR-portfolio.git/static/media/html.4a971b56121145aa6280.jpg",
+    "static/media/css.png": "/VR-portfolio.git/static/media/css.02d225c7df0b28341d8d.png",
+    "static/media/js.png": "/VR-portfolio.git/static/media/js.4e6c1ce291921b473e53.png",
+    "static/media/typescript.png": "/VR-portfolio.git/static/media/typescript.29073194eeda5803e7f3.png",
+    "index.html": "/VR-portfolio.git/index.html",
+    "main.be8664d0.css.map": "/VR-portfolio.git/static/css/main.be8664d0.css.map",
+    "main.d11bcad9.js.map": "/VR-portfolio.git/static/js/main.d11bcad9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be8664d0.css",
+    "static/js/main.d11bcad9.js"
+  ]
+}
