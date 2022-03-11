@@ -7,15 +7,20 @@ import {
   EducationDiv,
   DateForm,
   EducationBtn,
-  LinktoSchool
+  LinktoSchool,
+  BreakLineHr,
+  EETitle
 } from './Experience.style.jsx'
 
 const Experience = () => {
   return (
-    <ExperienceContainer>
+    <ExperienceContainer id="experience">
       <Title><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span>Educations and Experience <span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62; </span> <hr style={{ borderColor: ' rgba(57, 55, 55, 1)'}} /></Title>
       <ExperienceWrapper>
+        
         <EducationDiv>
+          <EETitle>Educations: <span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#123;</span> <span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#125;</span></EETitle>
+          <BreakLineHr />
           <div>
             <EducationBtn>Vocational Training : </EducationBtn>
             <h4><span style={{ color: 'rgba(77, 217, 248, 1)' }}>* Front-end web development</span> @ <LinktoSchool href="https://www.jensenyh.se/">Jensen Yrkesutbildning</LinktoSchool><DateForm> (2020-2022) </DateForm></h4>
@@ -29,9 +34,11 @@ const Experience = () => {
             <h4><span style={{ color: 'rgba(12, 248, 248, 1)' }}>* </span> Tourism Management @ <LinktoSchool href="https://english.jnu.edu.cn/">Jinan University</LinktoSchool><DateForm> (2003-2007) </DateForm></h4>
           </div>
         </EducationDiv>
-        <hr style={{ borderColor: ' rgb(81, 81, 85)' }} />
+        <hr/>
         <div>
           <ExperienceDiv>
+            <EETitle>Experience: <span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#123;</span> <span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#125;</span></EETitle>
+            <BreakLineHr />
             <h4><span style={{ color: 'rgba(77, 217, 248, 1)' }}>Sales Manager </span>@China Trading i Stockholm AB <DateForm> (2009-2019) </DateForm></h4>
             <ul style={{listStyleType:'none'}}>
               <li><span style={{ color: 'rgba(77, 217, 248, 1)', fontSize: '20px', marginRight: '10px' }}>*</span>40 to 45 million SEK in sales per year spread over 100 customers</li>

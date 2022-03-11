@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 import VR from '../../images/LOGOVR.png'
 import { motion } from 'framer-motion';
-import Hamburger from './hamburger/Hamburger'
+import Hamburger from './hamburger/Hamburger';
+import Menus from './hamburger/Menus';
 import {
   Header_container,
   HamburgerHeaderWrapper,
   Header_Wrapper_first,
   Header_logo,
   Header_Links,
-  HamburgerMenuWrapper
- 
+  HamburgerMenuWrapper,
+  HeaderLinkHref
 } from './Header.style'
 
 const Header = () => {
@@ -28,10 +29,10 @@ const Header = () => {
         <a href="#"><Header_logo src={VR} alt="" /></a>
       </motion.div>
       <Header_Wrapper_first>
-        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span>About me <span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
-        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span>Projects <span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
-        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span>Experience <span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
-        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span>Contact <span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
+        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#aboutme">About me</HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
+        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#projects">Projects</HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
+        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#experience">Experience</HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
+        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#contact">Contact</HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
       </Header_Wrapper_first>
       <HamburgerMenuWrapper>
         <div onClick={toggleHamburger}>
@@ -39,10 +40,7 @@ const Header = () => {
         </div>
         <HamburgerHeaderWrapper style={{
           display: `${hamburgerOpen ? 'inline' : 'none'}`}}>
-          <Header_Links>About me </Header_Links>
-          <Header_Links>Projects </Header_Links>
-          <Header_Links>Experience </Header_Links>
-          <Header_Links>Contact </Header_Links>
+         <Menus />
         </HamburgerHeaderWrapper>
        
       </HamburgerMenuWrapper>

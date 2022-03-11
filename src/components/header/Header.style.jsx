@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Header_container = styled.div`
   display:flex;
   flex-direction: row;
-  width:100%;
+  width:87.8%;
   justify-content:space-between;
-  padding-left:13%;
+  padding-left:12%;
   margin-top:0px;
   padding-top:5px;
   position:fixed;
@@ -22,24 +22,42 @@ export const Header_container = styled.div`
    justify-content:space-between;
    margin-left: 0%;
   }
+  @media (max-width:548px){
+    padding-bottom:0px;
+    padding-top:10px
+  }
   @media (max-width:480px){
     width:80%;
     margin-left:5%;
     padding-bottom:10px;
-    margin-top: 10px;
+    margin-top: 0px;
   }
-  
- 
-
+  @media(max-width:415px){
+    margin-top:-30px;
+  }
+  @media(max-width:300px){
+    margin-top:-30px;
+  }
 `
 export const Header_logo = styled.img`
   width:60px;
   padding-top:30px;
-  @media (max-width:400px){
-    width:100px;
-  }
+  margin-right:10%;
+ 
    @media (max-width:767px){
-     width:100px;
+     width:60px;
+   }
+   @media (max-width:548px){
+     padding-top:25px;
+   }
+    @media (max-width:400px){
+     width:50px;
+     padding-top:25px;
+   }
+   @media(max-width:300px){
+     width:40px;
+     padding-top:30px;
+     
    }
 
 `
@@ -48,22 +66,33 @@ export const Header_Wrapper_first = styled.div`
   flex-direction: row;
   justify-content:space-between;
   flex-wrap:nowrap;
-  width:50%;
-  margin-left:35%;
+  width:60%;
+  margin-left:38%;
   margin-top:30px;
   color:whitesmoke;
-  @media (max-width:1265px){
+  @media(max-width:1390px){
+    width:55%;
+    margin-left:10%;
+  }
+  @media (max-width:1288px){
     margin-left:12%;
     width:60%;
     justify-content:space-around;
   }
+  @media(max-width:1033px){
+    width:70%;
+    margin-left:1%;
+  }
   @media (max-width:829px){
     width:70%;
-
+    margin-left:0%;
+   
   }
-   @media (max-width:771px){
-    width:60%;
-    flex-wrap: wrap;
+   @media (max-width:775px){
+    width:70%;
+    margin-left:0%;
+
+    justify-content:center;
    }
   @media (max-width:770px){
     display:none
@@ -82,11 +111,16 @@ export const HamburgerHeaderWrapper = styled.div`
 `
 export const Header_Links = styled.a`
   color:whitesmoke;
-  font-size:1.2rem;
+  font-size:1.1rem;
   padding:10px;
   text-decoration:none;
   &:hover{
     border:1px solid skyblue;
     color:whitesmoke;
   }
+`
+
+export const HeaderLinkHref = styled.a`
+  color:whitesmoke;
+  text-decoration:none;
 `
