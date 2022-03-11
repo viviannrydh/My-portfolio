@@ -19,7 +19,7 @@ import {
 
 const Aboutme = () => {
   return (
-    <>
+    <div id="aboutme">
       <AboutmeContainer
         as={motion.div}
         animate={{ opacity: [0, 1] }}
@@ -35,21 +35,22 @@ const Aboutme = () => {
         </SelfIntroduction>
           <SkillsList> 
             <SkillsPair>
-              <List><span style={{ fontSize: '30px', color: 'rgba(77, 217, 248, 1)'}}>*</span> JavaScript</List>
-              <List><span style={{ fontSize: '30px', color: 'rgba(77, 217, 248, 1)' }}>*</span> React</List>
-              <List><span style={{ fontSize: '30px', color: 'rgba(77, 217, 248, 1)' }}>*</span> TypeScript</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)'}}>*</span> JavaScript</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> React</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> TypeScript</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Bootstrap</List>
             </SkillsPair>
             <SkillsPair>
-              <List><span style={{ fontSize: '30px', color: 'rgba(77, 217, 248, 1)' }}>*</span> HTML</List>
-              <List><span style={{ fontSize: '30px', color: 'rgba(77, 217, 248, 1)' }}>*</span> CSS</List>
-              <List><span style={{ fontSize: '30px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Framer Motion</List>
-              <List><span style={{ fontSize: '30px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Figma</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> HTML</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> CSS</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Framer Motion</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Figma</List>
             </SkillsPair> 
         </SkillsList>
       </AboutmeWrapper>
     </AboutmeContainer>
       
-    </>
+    </div>
   )
 }
 

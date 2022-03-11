@@ -10,12 +10,13 @@ import AnimateBG from './components/animateBG/AnimateBG.jsx'
 import { motion } from 'framer-motion';
 import Experience from './components/experience/Experience'
 import { AppContainer } from './App.style.jsx';
+import Sidebar from './components/sidebar/Sidebar.jsx'
 
 function App() {
   return (
     <>
     <Header />
-    <div>
+      <div>
         <AnimateBG />
         <Frontpage />
         <Aboutme />

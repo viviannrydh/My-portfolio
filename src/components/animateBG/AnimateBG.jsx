@@ -4,7 +4,7 @@ import './AnimateBG.css';
 
 const AnimateBG = () => {
   return (
-    <div>
+    <div className="animate-wrapper">
       <img className="leaf leaf-1" src={logo} alt="" />
       <img className="leaf leaf-2" src={logo} alt="" />
       <img className="leaf leaf-3" src={logo} alt="" />
