@@ -77,9 +77,9 @@ const Contact = () => {
             </ContactItem>
           </ContactItemIconsFristLine>
           <ContactItemIconsSecondLine>
-            <a href="https://github.com/viviannrydh?tab=repositories" target="_blank"><GitHubIcon style={{ color: 'white', fontSize: '30px', marginRight: '10px' }} /></a>
-            <a href="https://www.linkedin.com/in/viviann-wang-rydh-15503a42" target="_blank"><img src={LinkedInImg} style={{ width:'32px', marginRight: '10px' }} /></a>
-            <a href="https://www.instagram.com/viviann_rydh/" target="_blank"><img src={InstagramImg} style={{ width: '44px', marginRight: '10px', marginTop:'-3px' }} /></a>
+            <a href="https://github.com/viviannrydh?tab=repositories" target="_blank"><GitHubIcon style={{ color: 'white', fontSize: '28px', marginRight: '10px' }} /></a>
+            <a href="https://www.linkedin.com/in/viviann-wang-rydh-15503a42" target="_blank"><img src={LinkedInImg} style={{ width:'29px', marginRight: '6px' }} /></a>
+            <a href="https://www.instagram.com/viviann_rydh/" target="_blank"><img src={InstagramImg} style={{ width: '40px', marginRight: '10px', marginTop:'-3px' }} /></a>
           </ContactItemIconsSecondLine>
         </ContactItemIcons>
       </ContactWrapper>
