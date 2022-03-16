@@ -24,6 +24,7 @@ export const Frontpage_container = styled.div`
   margin-left:15%;
   padding-top:6%;
   margin-bottom:8%;
+  font-family: Roboto;
  @media(max-width:1189px){
     width:80%;
     margin-left:10%;
@@ -38,10 +39,7 @@ export const Frontpage_container = styled.div`
      margin-bottom:0%; 
      padding-top:8%;
   }
-  @media(max-width:776px){
-      margin-bottom:0%;
-  }
-  @media(max-width:769px){
+  @media(max-width:779px){
        flex-direction:column-reverse;
        justify-content:center;
        text-align: center;
@@ -58,6 +56,9 @@ export const Frontpage_container = styled.div`
     }
     @media(max-width:415px){
         margin-top:7%;
+    }
+    @media(max-width:300px){
+        width:80%;
     }
 `
 
@@ -77,7 +78,7 @@ export const Frontpage_wrapper = styled.div`
     @media(max-width:1033px){
         width:55%;
     }
-    @media(max-width:769px){
+    @media(max-width:782px){
         width:80%;
         margin-left:10%;
         margin-bottom:15%;
@@ -103,12 +104,18 @@ export const Frontpage_wrapper = styled.div`
         margin-top:6%;
         line-height:1.6rem;
     }
+    @media(max-width:300px){
+        width:100%;
+    }
     
 `
 
 export const Description = styled.p`
-    font-size:1.4em;
-    @media (max-width:769px){
+    font-size:1.5rem;
+    @media(max-width:899px){
+        font-size:1.3rem;
+    }
+    @media (max-width:782px){
         font-size:1.2rem;
     }
     @media (max-width:548px){
@@ -131,10 +138,19 @@ export const NameTitle = styled.h1`
     font-weight: 2000;
     margin-bottom: 1.2rem;
     margin-top:1rem;
-    @media (max-width:1033px){
+    @media (max-width:1499px){
+        font-size:2.8rem;
+    }
+    @media (max-width:1299px){
+        font-size:2.5rem;
+    }
+    @media (max-width:1235px){
         font-size: 2.3rem;
     }
-    @media (max-width:767px){
+    @media(max-width:899px){
+        font-size:2rem;
+    }
+    @media (max-width:782px){
         font-size:1.6rem;
          line-height:1.1rem;
     }
@@ -153,11 +169,20 @@ export const CareerTitle = styled.h1`
     font-weight:2000;
     margin-top:0px;
     line-height:3.5rem;
-    @media (max-width:1033px){
+    @media (max-width:1499px){
+        font-size:2.8rem;
+    }
+    @media (max-width:1299px){
+        font-size:2.5rem;
+    }
+    @media (max-width:1235px){
         font-size: 2.3rem;
     }
-    @media (max-width:767px){
-        font-size:1.4rem;
+     @media(max-width:899px){
+        font-size:2rem;
+    }
+    @media (max-width:782px){
+        font-size:1.6rem;
         line-height:1.2rem;
     }
      @media (max-width:400px){
@@ -212,24 +237,24 @@ export const SelfieContainer=styled.div`
     align-items: center;
     margin-top:12%;
     @media(max-width:1500px){
-        margin-top:19%;
+        margin-top:16%;
     }
    @media(max-width:1281px){
         width:40%;
-        margin-top:18%;
+        margin-top:16%;
         margin-left:5%;
    }
    @media(max-width:1033px){
-       width:40%;
-       margin-top:22%;
-       margin-left:5%;
+       width:42%;
+       margin-top:20%;
+       margin-left:3%;
        margin-bottom:-30%;
    }
    @media(max-width:829px){
-       margin-top:25%;
+       margin-top:22%;
        width:40%;
    }
-   @media(max-width:769px){
+   @media(max-width:779px){
         width:60%;
         margin-left:20%;
         margin-bottom:-10%;
@@ -253,16 +278,16 @@ export const SelfieContainer=styled.div`
          margin-bottom:-45%;
      }
      @media(max-width:345px){
-         margin-bottom:-70%;
+         margin-bottom:-74%;
      }
      @media(max-width:300px){
-        margin-bottom:-99%;
+        margin-bottom:-90%;
      }
        
 `
 export const Selfie_img = styled.img`
    width:100%; 
-   animation:2s ${fadeInRightAnimation};
+   animation:1s ${zoomInAnimation};
 
     @media (max-width:548px){
        width:80%;

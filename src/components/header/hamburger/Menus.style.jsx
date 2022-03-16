@@ -8,16 +8,16 @@ export const MenuWrapper = styled.div`
     color:whitesmoke;
     margin-top:10%;
     line-height:2rem;
-    margin-left:-130%;
+    margin-left:0%;
     @media (min-width:770px){
       display:none;
     }
     @media(max-width:548px){
-      margin-left:-100%;
+      margin-left:-20%;
       font-size:0.8rem;
     }
     @media(max-width:355px){
-      margin-left:-100%;
+      margin-left:-20%;
       font-size:0.7rem;
     }
 `

@@ -8,7 +8,7 @@ import {
 const CloseComponent = () => {
   return (
     <>
-      <HighlightOffIcon style={{fontSize:"40px", color: "skyblue",marginTop:"28px"}} />
+      <HighlightOffIcon style={{fontSize:"40px", color: "skyblue",marginTop:"28px",float:'right', marginRight:"30px"}} />
       {/*<CloseIcon src={Close} alt="close buttom" /> */} 
     </>
   )

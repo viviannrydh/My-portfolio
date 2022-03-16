@@ -31,17 +31,19 @@ export const ContactContainer = styled.div`
        width:80%;
        display:flex;
        flex-direction:column;
-       margin-left:0%;
+       margin-left:10%;
     }
     @media(max-width:606px){
         width:80%;
-        margin-left:5%;
+        margin-left:10%;
         margin-bottom:20%;
     }
     @media(max-width:425px){
        width:80%;
-       margin-left:5%;
-
+       margin-left:2%;
+    }
+    @media(max-width:300px){
+      width:80%;
     }
 
 `
@@ -67,19 +69,24 @@ export const MyWish = styled.h4`
       margin-left:2%;
       line-height:1.8rem;
       margin-bottom:5%;
-      text-align:left;
+      text-align:center;
   @media (max-width:746px){
     width:90%;
-    margin-left:2%;
+    margin-left:0%;
   }
   @media(max-width:545px){
-     margin-left:2%;
-     width:95%;
+     margin-left:0%;
+     width:90%;
   }
   @media(max-width:425px){
     width:85%;
-    margin-left:10%;
+    margin-left:6%;
   }
+   @media(max-width:300px){
+     width:80%;
+     margin-left:6%;
+     font-size:0.8rem;
+   }
   
   `
 export const ContactWrapper = styled.div`
@@ -180,14 +187,26 @@ export const ContactItemIcons = styled.div`
   justify-content:space-around;
   margin-top:15%;
   border:1px solid skyblue;
+  @media(max-width:779px){
+    width:90%;
+    margin-left:0%;
+  }
+  @media(max-width:690px){
+    width:90%;
+    margin-left:0%;
+  }
    @media(max-width:548px){
-    width:95%;
-    margin-left:2%;
+    width:90%;
+    margin-left:0%;
   }
   @media(max-width:425px){
     width:85%;
-    margin-left:6%;
+    margin-left:7%;
   }
+   @media(max-width:300px){
+     width:80%;
+     margin-left:8%;
+   }
 `
 export const ContactItemIconsFristLine = styled.div`
   display:flex;
@@ -262,18 +281,26 @@ export const ContactForm = styled.form`
   justify-content:space-between;
   width:95%;
   color:whitesmoke;
-  @media(max-width:648px){
-    width:97%;
+  @media(max-width:779px){
+    width:90%;
+  }
+  @media(max-width:679px){
+    width:90%;
+    margin-left:0%;
   }
   @media(max-width:545px){
-    width:100%;
-    margin-left:0%;
+    width:90%;
+    margin-left:5%;
 
   }
   @media(max-width:425px){
     width:86%;
-    margin-left:5%;
+    margin-left:6%;
   }
+   @media(max-width:300px){
+     width:82%;
+     margin-left:5%;
+   }
 `
 export const NameandEmail = styled.div`
   width:100%;
@@ -321,7 +348,7 @@ export const InputItem = styled.input`
   background-color:rgba(41, 42, 43, 1);
   border:none;
   padding-left:15px;
-  font-size:1.1rem;
+  font-size:0.9rem;
   @media(max-width:425px){
     width:92%;
   }
@@ -332,7 +359,8 @@ export const MessageTextArea = styled.textarea`
   background-color:rgba(41, 42, 43, 1);
   border:none;
   padding-left:15px;
-  font-size:1.1rem;
+  font-size:0.9rem;
+  font-family: Roboto;
   @media(max-width:425px){
     width:92%;
   }
@@ -347,6 +375,9 @@ export const SubmitInput = styled.input`
   @media(max-width:425px){
     font-size:0.8rem;
     width:98%;
+  }
+  @media(max-width:300px){
+    width:100%;
   }
 
 `
