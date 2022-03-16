@@ -59,7 +59,8 @@ export const ProjectsContainer = styled.div`
 `
 export const Title = styled.h1`
   color:whitesmoke;
-   font-size:1.8rem;
+  font-size:1.8rem;
+  font-family: Roboto;
   @media (max-width:769px){
     font-size:1.6rem;
   }
@@ -184,16 +185,17 @@ export const ProjectDescription = styled.p`
   padding:15px;
   margin-left:-10%;
   text-align:center;
-  font-size:1.2rem;
+  font-size:1.3rem;
   line-height:1.8rem;
   color:lightgray;
+  font-family: Roboto;
   @media(max-width:548px){
     margin-left:0%;
     margin-top:0%;
-    font-size:1rem;
+    font-size:1.1rem;
   }
    @media(max-width:300px){
-     font-size:0.9rem;
+     font-size:1rem;
    }
 `
 export const ProjectDescriptionLeft = styled.p`
@@ -201,14 +203,16 @@ export const ProjectDescriptionLeft = styled.p`
   padding:10px;
   margin-left:0%;
   text-align:center;
-  font-size:1.2rem;
+  font-size:1.3rem;
   line-height:1.8rem;
   color:lightgray;
+  font-family: Roboto;
+  
    @media(max-width:548px){
-    font-size:1rem;
+    font-size:1.1rem;
   }
    @media(max-width:300px){
-     font-size:0.9rem;
+     font-size:1rem;
    }
 `
 export const ProjectTitle = styled.h1`

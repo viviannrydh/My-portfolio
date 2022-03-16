@@ -12,6 +12,7 @@ export const AboutmeContainer = styled.div`
   padding-left:10%;
   margin-top:0%;
   margin-bottom: 0%;
+  font-family: Roboto;
   @media(max-width:1033px){
     margin-top:0%;
   }
@@ -85,7 +86,7 @@ export const SelfIntroduction = styled.div`
   flex-direction:column;
   width:100%;
   color:white;
-  font-size:1.25rem;
+  font-size:1.3rem;
   line-height: 2rem;
   @media (max-width:829px){
     font-size:1.1rem;
@@ -104,7 +105,7 @@ export const SkillsList = styled.ul`
   justify-content:space-between;
   list-style-type:none;
   color:white;
-  line-height:2em;
+  line-height:2rem;
   font-size:1.25rem;
   @media (max-width:548px){
     width:80%;
@@ -114,7 +115,8 @@ export const SkillsList = styled.ul`
   }
   @media(max-width:400px){
       width:100%;
-      margin-left:-16%;
+      margin-left:-20%;
+      font-size:0.5rem;
     }
   @media(max-width:300px){
     font-size:0.6rem;
