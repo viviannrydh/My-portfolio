@@ -63,7 +63,7 @@ const Project = () => {
           <span>React</span>
           <ProjectLinksIconsLeft>
             <GithubLink href="https://github.com/viviannrydh/Math-app-for-kids" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
-            <WebIcon style={{ fontSize: '36px' }} />
+            <GithubLink href="https://viviannrydh.github.io/Math-app-for-kids/" target="_blank"><WebIcon style={{ fontSize: '36px' }} /></GithubLink>
           </ProjectLinksIconsLeft>
         </ProjectIntroductionLeft>
         <ProjectImgRight src={Math} alt="" />
@@ -79,10 +79,10 @@ const Project = () => {
         <ProjectIntroduction>
           <ProjectTitle><GithubLink href="https://github.com/viviannrydh/movieapi" target="_blank">IMDb API Movie App</GithubLink></ProjectTitle>
           <ProjectDescription>A movie app was created for fetching and searching for movies. and all the data are from the IMDb Movie API, which was sourced in the website http://www.omdbapi.com ;</ProjectDescription>
-          <span>React API</span>
+          <span>React, API</span>
           <ProjectLinksIcons>
             <GithubLink href="https://github.com/viviannrydh/movieapi" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
-            <WebIcon style={{ fontSize: '36px' }} />
+            {/* <WebIcon style={{ fontSize: '36px' }} />*/}
           </ProjectLinksIcons>
         </ProjectIntroduction>
       </ProjectWrapper>
@@ -98,7 +98,7 @@ const Project = () => {
           <span>React</span>
           <ProjectLinksIconsLeft>
             <GithubLink href="https://github.com/viviannrydh/canada-country-road-immigration" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
-            <WebIcon style={{ fontSize: '36px' }} />
+            <GithubLink href="https://canada-immigration.herokuapp.com/" target="_blank"><WebIcon style={{ fontSize: '36px' }} /></GithubLink>
           </ProjectLinksIconsLeft>
         </ProjectIntroductionLeft>
         <ProjectImgRight src={CanadaCountryRoad} alt="" />
@@ -116,7 +116,7 @@ const Project = () => {
           <span>React. Firebase</span>
           <ProjectLinksIcons>
             <GithubLink href="https://github.com/viviannrydh/amazon-clone" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
-            <WebIcon style={{ fontSize: '36px' }} />
+            {/*<WebIcon style={{ fontSize: '36px' }} />*/}
           </ProjectLinksIcons>
         </ProjectIntroduction>
       </ProjectWrapper>

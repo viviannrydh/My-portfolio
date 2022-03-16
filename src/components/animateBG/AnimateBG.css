@@ -1,7 +1,7 @@
 .animate-wrapper{
   z-index: -10;
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1100px){
  .animate-wrapper{
   display:none
 }
@@ -46,7 +46,7 @@
  
   100%{
     transform:
-    translateX(1000px)
+    translateX(900px)
     translateY(1800px)
   }
   
@@ -90,7 +90,7 @@
   }
   50%{
     transform: 
-    translateX(1000px)
+    translateX(990px)
     translateY(1000px)
   }
   75%{
@@ -151,7 +151,7 @@
       translateY(666px)
   }
 }
-
+/*
 @keyframes leafSix{
   0%{
     transform: 
@@ -174,7 +174,7 @@
       translateY(3000px)
   }
 }
-
+*/
 /*
 @media only screen and (max-width: 548px){
 
