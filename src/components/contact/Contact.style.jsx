@@ -35,12 +35,12 @@ export const ContactContainer = styled.div`
     }
     @media(max-width:606px){
         width:80%;
-        margin-left:0%;
+        margin-left:5%;
         margin-bottom:20%;
     }
     @media(max-width:425px){
        width:80%;
-       margin-left:2%;
+       margin-left:5%;
 
     }
 
@@ -74,10 +74,10 @@ export const MyWish = styled.h4`
   }
   @media(max-width:545px){
      margin-left:2%;
-     width:100%;
+     width:95%;
   }
   @media(max-width:425px){
-    width:90%;
+    width:85%;
     margin-left:10%;
   }
   
@@ -162,12 +162,15 @@ export const ContactText = styled.span`
   padding-top:8px;
   color:rgba(242, 250, 251, 1);
   font-size:1rem;
-     @media (max-width:300px){
-      margin-left:-10%;
+    @media (max-width:389px){
+      margin-left:-9%;
       justify-content:center;
       text-align:center;
       font-size:0.8rem;
     }
+     @media (max-width:300px){
+      font-size:0.7rem;
+     }
 
 `
 export const ContactItemIcons = styled.div`
@@ -178,8 +181,12 @@ export const ContactItemIcons = styled.div`
   margin-top:15%;
   border:1px solid skyblue;
    @media(max-width:548px){
-    width:80%;
-    margin-left:0%;
+    width:95%;
+    margin-left:2%;
+  }
+  @media(max-width:425px){
+    width:85%;
+    margin-left:6%;
   }
 `
 export const ContactItemIconsFristLine = styled.div`
@@ -226,6 +233,7 @@ export const ContactItemIconsSecondLine = styled.div`
   flex-direction: row;
   justify-content: space-around;
   margin-top:5%;
+  margin-bottom:5%;
  
    @media (max-width:992px){
     justify-content: flex-start;
@@ -244,6 +252,9 @@ export const ContactItemIconsSecondLine = styled.div`
       margin-left:30%;
 
     }
+  @media (max-width:345px){
+    margin-left:22%;
+  }
 `
 export const ContactForm = styled.form`
   display:flex;
@@ -252,7 +263,7 @@ export const ContactForm = styled.form`
   width:95%;
   color:whitesmoke;
   @media(max-width:648px){
-    width:100%;
+    width:97%;
   }
   @media(max-width:545px){
     width:100%;
@@ -282,7 +293,7 @@ export const NameInputItem = styled.input`
   padding-left:15px;
   font-size:0.9rem;
   @media (max-width:746px){
-    width:93%;
+    width:94%;
   }
   @media(max-width:545px){
     width:92%;
@@ -298,7 +309,7 @@ export const EmailInputItem = styled.input`
   padding-left:15px;
   font-size:0.9rem;
   @media (max-width:746px){
-    width:93%;
+    width:94%;
   }
   @media(max-width:545px){
     width:92%;
