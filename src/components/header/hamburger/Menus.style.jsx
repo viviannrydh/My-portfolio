@@ -1,17 +1,32 @@
 import styled from 'styled-components';
 
 export const MenuWrapper = styled.div`
-    width:30%;
+    width:100%;
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    background-color:skyblue;
+    justify-content:space-between;
+    color:whitesmoke;
+    margin-top:10%;
+    line-height:2rem;
+    margin-left:-130%;
     @media (min-width:770px){
       display:none;
     }
+    @media(max-width:548px){
+      margin-left:-100%;
+      font-size:0.8rem;
+    }
+    @media(max-width:355px){
+      margin-left:-100%;
+      font-size:0.7rem;
+    }
 `
-export const MenuItem = styled.div`
-    display:flex;
-    flex-direction:column;
-    text-align:center;
+
+export const HeaderLinkA = styled.a`
+    margin-bottom:10px;
+    border-bottom:1px solid skyblue;
+    text-decoration:none;
+    color:whitesmoke;
+
+
 `

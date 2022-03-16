@@ -10,7 +10,6 @@ const AnimateBG = () => {
       <img className="leaf leaf-3" src={logo} alt="" />
       <img className="leaf leaf-4" src={logo} alt="" />
       <img className="leaf leaf-5" src={logo} alt="" />
-      <img className="leaf leaf-6" src={logo} alt="" />
     </div>
   )
 }

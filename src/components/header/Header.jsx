@@ -3,6 +3,7 @@ import VR from '../../images/LOGOVR.png'
 import { motion } from 'framer-motion';
 import Hamburger from './hamburger/Hamburger';
 import Menus from './hamburger/Menus';
+import CloseComponent from './hamburger/CloseComponent'
 import {
   Header_container,
   HamburgerHeaderWrapper,
@@ -23,8 +24,6 @@ const Header = () => {
       <motion.div
         animate={{
           scale: [0, 1],
-          rotate: [0, 0, 45, 45, 0],
-          borderRadius: ["20%", "20%", "50%", "50%", "20%"],
       }}>
         <a href="#"><Header_logo src={VR} alt="" /></a>
       </motion.div>
@@ -36,7 +35,7 @@ const Header = () => {
       </Header_Wrapper_first>
       <HamburgerMenuWrapper>
         <div onClick={toggleHamburger}>
-          <Hamburger />
+          {hamburgerOpen ? <CloseComponent/> :<Hamburger />} 
         </div>
         <HamburgerHeaderWrapper style={{
           display: `${hamburgerOpen ? 'inline' : 'none'}`}}>

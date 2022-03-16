@@ -1,7 +1,6 @@
 body {
   margin: 0;
   border-left:3px solid rgb(113, 173, 241);
-  border-right:3px solid rgb(113, 173, 241);
   font-family: Roboto, "Helvetica Neue", Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

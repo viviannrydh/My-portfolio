@@ -82,7 +82,7 @@ const Project = () => {
           <span>React, API</span>
           <ProjectLinksIcons>
             <GithubLink href="https://github.com/viviannrydh/movieapi" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
-            <WebIcon style={{ fontSize: '36px' }} />
+            {/* <WebIcon style={{ fontSize: '36px' }} />*/}
           </ProjectLinksIcons>
         </ProjectIntroduction>
       </ProjectWrapper>
@@ -116,7 +116,7 @@ const Project = () => {
           <span>React. Firebase</span>
           <ProjectLinksIcons>
             <GithubLink href="https://github.com/viviannrydh/amazon-clone" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
-            <WebIcon style={{ fontSize: '36px' }} />
+            {/*<WebIcon style={{ fontSize: '36px' }} />*/}
           </ProjectLinksIcons>
         </ProjectIntroduction>
       </ProjectWrapper>
