@@ -49,7 +49,7 @@ export const AboutmeContainer = styled.div`
     }
      @media(max-width:300px){
        width:70%;
-       margin-left:15%;
+       margin-left:12%;
      }
 `
 export const Title = styled.h1`

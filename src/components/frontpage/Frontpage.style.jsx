@@ -260,28 +260,28 @@ export const SelfieContainer=styled.div`
         margin-bottom:-10%;
    }
    @media(max-width:640px){
-       margin-bottom:-25%;
+       margin-bottom:-23%;
    }
     @media(max-width:548px){
         width:80%;
         margin-left:8%;
         margin-top:20%;
-        margin-bottom: -20%;
+        margin-bottom: -18%;
     }
     @media(max-width:459px){
          width:80%;
          margin-left:8%;
          margin-top:30%;
-         margin-bottom:-30%;
+         margin-bottom:-35%;
      }
      @media(max-width:400px){
-         margin-bottom:-45%;
+         margin-bottom:-50%;
      }
      @media(max-width:345px){
          margin-bottom:-74%;
      }
      @media(max-width:300px){
-        margin-bottom:-90%;
+        margin-bottom:-100%;
      }
        
 `

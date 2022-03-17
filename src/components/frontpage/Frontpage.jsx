@@ -26,7 +26,7 @@ const Frontpage = () => {
         <CareerTitle>Front-end web developer</CareerTitle>
         <Description>with a passion for building web applications with <strong style={{ color: '#61dafb' }}>&#x2764; React &#x2764;</strong>.</Description>
         {/*<Slogen>I am passionated about building web applications with React.</Slogen>*/}
-        <Contact_btn>Check out my projects</Contact_btn>
+        <Contact_btn>Contact me</Contact_btn>
       </Frontpage_wrapper>
       <SelfieContainer>
         <Selfie_img src={selfie} alt="" />

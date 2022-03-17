@@ -5,7 +5,7 @@ export const Header_container = styled.div`
   flex-direction: row;
   width:87.8%;
   justify-content:space-between;
-  padding-left:12%;
+  padding-left:5%;
   margin-top:0px;
   padding-top:5px;
   position:fixed;
@@ -38,7 +38,7 @@ export const Header_container = styled.div`
     width:80%;
   }
   @media(max-width:300px){
-    width:70%;
+    width:80%;
     margin-top:-30px;
   }
 `
