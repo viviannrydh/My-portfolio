@@ -40,6 +40,7 @@ export const AboutmeContainer = styled.div`
        margin-left:12%;
        font-size:1.1rem;
        margin-top:10%;
+       text-align:center;
      }
     @media(max-width:400px){
       width:65%;
