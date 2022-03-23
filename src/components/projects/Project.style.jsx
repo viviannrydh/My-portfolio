@@ -29,9 +29,15 @@ export const ProjectsContainer = styled.div`
     margin-left:5%;
   }
    @media (max-width:746px){
-       width:90%;
+      width:90%;
       flex-direction:column;
-       margin-left:5%;
+      margin-left:5%;
+    }
+    @media (max-width:689px){
+      margin-left:7%;
+    }
+    @media (max-width:639px){
+      margin-left:5%;
     }
     @media(max-width:606px){
        flex-direction:column;
@@ -44,9 +50,9 @@ export const ProjectsContainer = styled.div`
        width:90%;
        margin-left:5%;
     }
-     @media(max-width:415px){
+     @media(max-width:419px){
         width:90%;
-        margin-left:5%;
+        margin-left:2%;
         flex-direction:column;
      }
   @media (max-width:400px){
@@ -90,8 +96,12 @@ export const ProjectWrapper = styled.div`
   }
   @media (max-width:769px){
     flex-direction:column;
-    width:100%;
-    margin-left:10%;
+    width:90%;
+    margin-left:5%;
+  }
+  @media (max-width:639px){
+    width:90%;
+    margin-left:8%;
   }
   @media(max-width:548px){
         flex-direction:column;
@@ -118,8 +128,12 @@ export const ProjectWrapperSecond= styled.div`
   }
   @media (max-width:769px){
     flex-direction:column-reverse;
-    width:80%;
-    margin-left:10%;
+    width:90%;
+    margin-left:5%;
+  }
+  @media (max-width:639px){
+    width:90%;
+    margin-left:8%;
   }
   @media(max-width:548px){
         flex-direction:column-reverse;
