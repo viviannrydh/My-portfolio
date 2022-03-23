@@ -41,10 +41,11 @@ const Aboutme = () => {
               <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Figma </List>
             </SkillsPair>
             <SkillsPair>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> WordPress</List>
               <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> HTML</List>
               <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> CSS</List>
               <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Framer Motion</List>
-              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Bootstrap</List>
+              
             </SkillsPair> 
         </SkillsList>
       </AboutmeWrapper>
