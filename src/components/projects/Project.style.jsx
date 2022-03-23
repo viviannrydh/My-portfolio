@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-  width:60%;
+  width:70%;
   display:flex;
   flex-direction:column;
-  margin-left:20%;
+  margin-left:15%;
   margin-top:12%;
   @media (max-width:1355px){
       flex-direction:column;
@@ -50,8 +50,8 @@ export const ProjectsContainer = styled.div`
         flex-direction:column;
      }
   @media (max-width:400px){
-    width:80%;
-    margin-left:10%;
+    width:90%;
+    margin-left:5%;
     text-align:center;
     justify-content:space-around;
     margin-top:20%;
@@ -90,7 +90,7 @@ export const ProjectWrapper = styled.div`
   }
   @media (max-width:769px){
     flex-direction:column;
-    width:80%;
+    width:100%;
     margin-left:10%;
   }
   @media(max-width:548px){
@@ -148,6 +148,18 @@ export const ProjectImg = styled.img`
     width:100%;
   }
 `
+export const ProjectImgLinkRight = styled.a`
+  width:50%;
+  z-index:-1;
+  @media (max-width:1033px){
+     width:90%;
+     margin-left:5%;
+  }
+  @media (max-width:769px){
+     width:100%;
+     margin-left:0%;
+  }
+`
 export const ProjectImgRight = styled.img`
   width:55%;
   margin-left:-5%;
@@ -172,15 +184,33 @@ export const ProjectImgRight = styled.img`
 export const ProjectIntroduction = styled.div`
   color:whitesmoke;
   text-align:right;
+  width:50%;
+  @media (max-width:1033px){
+     width:90%;
+     margin-left:5%;
+  }
+  @media (max-width:769px){
+     width:100%;
+     margin-left:0%;
+  }
   
 `
 export const ProjectIntroductionLeft = styled.div`
   text-align:left;
   color:whitesmoke;
-  text-align:left;
+  width:50%;
+  @media (max-width:1033px){
+     width:90%;
+     margin-left:5%;
+  }
+  @media (max-width:769px){
+     width:100%;
+     margin-left:0%;
+  }
 
 `
 export const ProjectDescription = styled.p`
+  
   background-color:rgba(41, 39, 39,0.7);
   padding:15px;
   margin-left:-10%;
@@ -189,6 +219,10 @@ export const ProjectDescription = styled.p`
   line-height:1.8rem;
   color:lightgray;
   font-family: Roboto;
+   @media (max-width:1033px){
+
+     margin-left:0%;
+  }
   @media(max-width:548px){
     margin-left:0%;
     margin-top:0%;

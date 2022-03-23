@@ -140,9 +140,11 @@ export const DateForm = styled.span`
 export const EducationBtn = styled.button`
   background-color: rgb(32, 32, 33);
   color:whitesmoke;
+  border:none;
   padding:8px;
-  border: 0.3px inset rgba(77, 217, 248, 1);
-  font-size:1rem;
+  border-bottom: 0.3px solid rgba(77, 217, 248, 1);
+  font-size:1.1rem;
+  font-weight:bold;
 `
 export const LinktoSchool = styled.a`
   text-decoration: none;

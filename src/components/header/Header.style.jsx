@@ -16,14 +16,15 @@ export const Header_container = styled.div`
     justify-content: space-around;
     width:100%;
   }
-  @media (max-width:770px){
+  @media (max-width:779px){
    width:80%;
    justify-content:space-between;
-   margin-left: 0%;
+   margin-left: 5%;
   }
   @media (max-width:548px){
     padding-bottom:0px;
-    padding-top:10px
+    padding-top:10px;
+    margin-left: 2%;
   }
   @media (max-width:480px){
     width:85%;

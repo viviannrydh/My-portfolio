@@ -17,6 +17,11 @@ export const HamburgerImgIcon = styled.img`
   width:50px;
   margin-top:22px;
   float:right;
+
+  @media (max-width:556px){
+    width:40px;
+    margin-top:27px;
+  }
   @media (max-width:400px){
     width:40px;
   }

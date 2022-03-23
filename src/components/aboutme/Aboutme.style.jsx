@@ -44,8 +44,9 @@ export const AboutmeContainer = styled.div`
      }
     @media(max-width:400px){
       width:65%;
-      margin-left:16%;
+      margin-left:14%;
       font-size:1rem;
+      text-align:flex-start;
     }
      @media(max-width:300px){
        width:70%;
@@ -89,6 +90,7 @@ export const SelfIntroduction = styled.div`
   color:white;
   font-size:1.3rem;
   line-height: 2rem;
+  text-align:flex-start;
   @media (max-width:829px){
     font-size:1.1rem;
   }
@@ -116,7 +118,8 @@ export const SkillsList = styled.ul`
   }
   @media(max-width:400px){
       width:100%;
-      margin-left:-20%;
+      float:left;
+      margin-left:-18%;
       font-size:0.5rem;
     }
   @media(max-width:300px){
@@ -135,6 +138,7 @@ export const List = styled.li`
    font-size:1rem;
    @media(max-width:400px){
      font-size:0.9rem;
+     text-align:flex-start;
    }
 
 `

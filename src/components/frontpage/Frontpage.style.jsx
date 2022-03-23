@@ -78,12 +78,16 @@ export const Frontpage_wrapper = styled.div`
     @media(max-width:1033px){
         width:55%;
     }
-    @media(max-width:782px){
+    @media(max-width:779px){
         width:80%;
         margin-left:10%;
         margin-bottom:15%;
         line-height:1.8rem;
     }
+    @media(max-width:630px){
+        margin-left:12%;
+    }
+
     @media(max-width:548px){
         width:100%;
         margin-top:0%;
@@ -194,9 +198,38 @@ export const CareerTitle = styled.h1`
         line-height:1.4rem;
     }
 `
+export const ContactInfoWrapper = styled.div`
+    display:flex;
+    flex-direction:row;
+    width:70%;
+    justify-content:space-bewteen;
+    @media(max-width:779px){
+       flex-direction:column;
+       width:80%; 
+       margin-left:10%;
+    }
+    @media(max-width:400px){
+       flex-direction:column;
+       width:90%; 
+       margin-left:5%;
+    }
+`
+export const ContactIcons = styled.div`
+    display:flex;
+    width:30%;
+    margin-left:5%;
+    flex-direction:row;
+    justify-content:space-around;
+     @media(max-width:779px){
+       width:80%; 
+       margin-left:10%;
+    }
+
+
+`
 export const Contact_btn = styled.button`
     height:50px;
-    width:50%;
+    width:65%;
     padding:10px;
     background-color:rgb(36, 36, 37);
     color:white;
@@ -210,19 +243,20 @@ export const Contact_btn = styled.button`
     @media(max-width:1033px){
         width:70%;
     }
-    @media (max-width:767px){
-        width:70%;
+    @media (max-width:779px){
+        width:100%;
         font-size:1rem;
     }
      @media(max-width:400px){
-        width:70%;
+        width:90%;
+        margin-left:5%;
         font-size:0.9rem;
     }
     @media(max-width:345px){
-        width:70%;
+        width:90%;
     }
     @media(max-width:300px){
-        width:70%;
+        width:90%;
         font-size:0.8rem;
     }
 `
@@ -259,29 +293,46 @@ export const SelfieContainer=styled.div`
         margin-left:20%;
         margin-bottom:-10%;
    }
-   @media(max-width:640px){
-       margin-bottom:-23%;
+   @media(max-width:740px){
+       width:60%;
+        margin-left:20%;
+        margin-bottom:-12%;
    }
-    @media(max-width:548px){
-        width:80%;
-        margin-left:8%;
+   @media(max-width:640px){
+       width:70%;
+       margin-left:15%;
+       margin-bottom:-15%;
+   }
+    @media(max-width:558px){
+        width:70%;
+        margin-left:14%;
         margin-top:20%;
-        margin-bottom: -18%;
+        margin-bottom: -25%;
     }
     @media(max-width:459px){
          width:80%;
          margin-left:8%;
          margin-top:30%;
-         margin-bottom:-35%;
+         margin-bottom:-30%;
+     }
+      @media(max-width:416px){
+         margin-bottom:-46%;
      }
      @media(max-width:400px){
+         margin-bottom:-40%;
+         margin-left:6%;
+     }
+     @media(max-width:379px){
          margin-bottom:-50%;
      }
-     @media(max-width:345px){
-         margin-bottom:-74%;
+     @media(max-width:347px){
+         margin-bottom:-65%;
+     }
+     @media(max-width:320px){
+        margin-bottom:-75%;
      }
      @media(max-width:300px){
-        margin-bottom:-100%;
+        margin-bottom:-85%;
      }
        
 `

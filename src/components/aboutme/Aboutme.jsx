@@ -23,7 +23,7 @@ const Aboutme = () => {
       <AboutmeContainer
         as={motion.div}
         animate={{ opacity: [0, 1] }}
-        transition={{ delay: 1 }} 
+        transition={{ delay: 0.5 }} 
       >
         <Title><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span>About me<span style={{ color: 'rgba(77, 217, 248, 1)' }}> &#47;&#62; </span><hr style={{ borderColor: 'rgba(57, 55, 55, 1)'}} /></Title>
       <AboutmeWrapper>
@@ -35,16 +35,16 @@ const Aboutme = () => {
         </SelfIntroduction>
           <SkillsList> 
             <SkillsPair>
-              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)'}}>*</span> JavaScript</List>
-              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> React</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> React </List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> JavaScript</List>
               <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> TypeScript</List>
-              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Bootstrap</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Figma </List>
             </SkillsPair>
             <SkillsPair>
               <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> HTML</List>
               <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> CSS</List>
               <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Framer Motion</List>
-              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Figma</List>
+              <List><span style={{ fontSize: '20px', color: 'rgba(77, 217, 248, 1)' }}>*</span> Bootstrap</List>
             </SkillsPair> 
         </SkillsList>
       </AboutmeWrapper>
