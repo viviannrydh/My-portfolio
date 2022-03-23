@@ -27,7 +27,7 @@ export const AboutmeContainer = styled.div`
   }
    @media (max-width:769px){
        width:70%;
-       margin-left:10%;
+       margin-left:12%;
        padding-left:5%;
     }
     @media(max-width:606px){
@@ -37,7 +37,7 @@ export const AboutmeContainer = styled.div`
     }
      @media(max-width:548px){
        width:70%;
-       margin-left:12%;
+       margin-left:10%;
        font-size:1.1rem;
        margin-top:10%;
        text-align:center;

@@ -4,8 +4,9 @@ export const Header_container = styled.div`
   display:flex;
   flex-direction: row;
   width:100%;
-  justify-content:space-between;
   padding-left:5%;
+  justify-content:space-between;
+  padding-left:0%;
   margin-top:0px;
   padding-top:5px;
   position:fixed;
@@ -17,51 +18,64 @@ export const Header_container = styled.div`
     width:100%;
   }
   @media (max-width:779px){
-   width:80%;
+   width:100%;
    justify-content:space-between;
-   margin-left: 5%;
+   margin-left: 0%;
   }
   @media (max-width:548px){
+    width:100%;
     padding-bottom:0px;
     padding-top:10px;
-    margin-left: 2%;
+
   }
   @media (max-width:480px){
-    width:85%;
+    width:100%;
     margin-left:0%;
     padding-bottom:10px;
     margin-top: 0px;
   }
   @media(max-width:415px){
+    width:100%;
     margin-top:-30px;
   }
   @media(max-width:329px){
-    width:80%;
+    width:100%;
   }
   @media(max-width:300px){
-    width:80%;
+    width:100%;
     margin-top:-30px;
   }
 `
 export const Header_logo = styled.img`
   width:60px;
   padding-top:30px;
+  padding-left:60px;
  
    @media (max-width:767px){
      width:60px;
-     margin-left:35%;
+     
+   }
+   @media (max-width:689px){
+     width:55px;
    }
    @media (max-width:548px){
      padding-top:25px;
    }
-    @media (max-width:400px){
+    @media (max-width:419px){
      width:50px;
      padding-top:25px;
+     padding-left:50px;
+   }
+   @media (max-width:400px){
+     width:45px;
+     padding-left:40px;
+   }
+   @media (max-width:345px){
+     padding-left:15px;
    }
    @media(max-width:300px){
      width:40px;
-     padding-top:30px;
-     
+     padding-top:30px;    
    }
 
 `
@@ -87,13 +101,13 @@ export const Header_Wrapper_first = styled.div`
     width:320%;
     margin-left:10%;
   }
-  @media (max-width:945px){
-    width:350%;
-    margin-left:10%;
+  @media (max-width:998px){
+    width:450%;
+    margin-left:8%;
   }
    @media (max-width:896px){
     width:500%;
-    margin-left:8%;
+    margin-left:1%;
     justify-content:space-between;
    }
   @media (max-width:779px){

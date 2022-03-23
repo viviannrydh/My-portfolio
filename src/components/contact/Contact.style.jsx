@@ -33,6 +33,9 @@ export const ContactContainer = styled.div`
        flex-direction:column;
        margin-left:10%;
     }
+    @media (max-width:689px){
+      margin-left:12%;
+    }
     @media(max-width:606px){
         width:80%;
         margin-left:10%;
@@ -44,6 +47,7 @@ export const ContactContainer = styled.div`
     }
     @media(max-width:300px){
       width:80%;
+      margin-left:0%;
     }
 
 `
@@ -200,12 +204,12 @@ export const ContactItemIcons = styled.div`
     margin-left:0%;
   }
   @media(max-width:425px){
-    width:85%;
+    width:88%;
     margin-left:7%;
   }
    @media(max-width:300px){
-     width:80%;
-     margin-left:8%;
+     width:100%;
+     margin-left:0%;
    }
 `
 export const ContactItemIconsFristLine = styled.div`
@@ -239,6 +243,7 @@ export const ContactItemIconsFristLine = styled.div`
     @media (max-width:455px){
       margin-left:-15%;
       font-size:0.6rem;
+      width:100%;
     }
     @media (max-width:300px){
       margin-left:-18%;
@@ -288,18 +293,18 @@ export const ContactForm = styled.form`
     width:90%;
     margin-left:0%;
   }
-  @media(max-width:545px){
+  @media(max-width:548px){
     width:90%;
-    margin-left:5%;
+    margin-left:0%;
 
   }
   @media(max-width:425px){
-    width:86%;
-    margin-left:6%;
+    width:90%;
+    margin-left:5%;
   }
    @media(max-width:300px){
-     width:82%;
-     margin-left:5%;
+     width:100%;
+     margin-left:0%;
    }
 `
 export const NameandEmail = styled.div`

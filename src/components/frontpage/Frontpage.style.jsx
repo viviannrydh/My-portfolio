@@ -304,10 +304,10 @@ export const SelfieContainer=styled.div`
        margin-bottom:-15%;
    }
     @media(max-width:558px){
-        width:70%;
-        margin-left:14%;
+        width:80%;
+        margin-left:7.5%;
         margin-top:20%;
-        margin-bottom: -25%;
+        margin-bottom: -22%;
     }
     @media(max-width:459px){
          width:80%;
@@ -332,16 +332,27 @@ export const SelfieContainer=styled.div`
         margin-bottom:-75%;
      }
      @media(max-width:300px){
-        margin-bottom:-85%;
+        margin-bottom:-78%;
+
      }
        
 `
 export const Selfie_img = styled.img`
    width:100%; 
    animation:1s ${zoomInAnimation};
-
-    @media (max-width:548px){
+   @media (max-width:689px){
+       margin-left:4%;
+   }
+   @media (max-width:649px){
+    width:100%;
+    margin-left:5%;
+   }
+   @media (max-width:548px){
        width:80%;
        margin-left:10%;
    }
+    @media(max-width:300px){
+        width:100%;
+        margin-left:6%;
+    }
 `
