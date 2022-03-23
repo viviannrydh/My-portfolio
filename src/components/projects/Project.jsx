@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Todo from '../../images/todos.jpg';
+import Todo from '../../images/todomedium.png';
 import Math from '../../images/mathApp.jpg';
 import Movie from '../../images/movieAPI.jpg';
 import CanadaCountryRoad from '../../images/CanadaCountryRoad.png'
 import Amazon from '../../images/amazon-clone.jpg';
 import Cookingbook from '../../images/cooking.png';
-import SelfPortfolio from '../../images/ darkblue theme.png'
+import SelfPortfolio from '../../images/portfolio-white.png'
 import { motion } from 'framer-motion';
 import {
   ProjectsContainer,
