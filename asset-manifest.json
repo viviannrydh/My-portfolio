@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/My-portfolio/static/css/main.deb13189.css",
-    "main.js": "/My-portfolio/static/js/main.e24a8f78.js",
-    "static/media/CanadaCountryRoad.jpg": "/My-portfolio/static/media/CanadaCountryRoad.ea937027adb834f245e2.jpg",
+    "main.js": "/My-portfolio/static/js/main.d1af9640.js",
+    "static/media/CanadaCountryRoad.png": "/My-portfolio/static/media/CanadaCountryRoad.e315232bd3ef8d1f4028.png",
     "static/media/cooking.png": "/My-portfolio/static/media/cooking.f72a7a8ff30b0e8c6791.png",
     "static/media/movieAPI.jpg": "/My-portfolio/static/media/movieAPI.ebe1e187b002dbc0ad7c.jpg",
     "static/media/Malaga.png": "/My-portfolio/static/media/Malaga.7c737b6b7bd7ec21525f.png",
     "static/media/mathApp.jpg": "/My-portfolio/static/media/mathApp.38d314cc2f384c6a7f94.jpg",
     "static/media/amazon-clone.jpg": "/My-portfolio/static/media/amazon-clone.f1373f9eba080fa1237a.jpg",
+    "static/media/portfolio-white.png": "/My-portfolio/static/media/portfolio-white.44a1a820c2d0ca21379c.png",
     "static/media/selfie-without-whitecircle.png": "/My-portfolio/static/media/selfie-without-whitecircle.945f7959ba0386decee5.png",
     "static/media/selfie.jpg": "/My-portfolio/static/media/selfie.4b67c4b1f1e6482f389e.jpg",
-    "static/media/todos.jpg": "/My-portfolio/static/media/todos.771873756e76938ff541.jpg",
+    "static/media/todomedium.png": "/My-portfolio/static/media/todomedium.165325d19cd0c8562e8c.png",
     "static/media/logo.png": "/My-portfolio/static/media/logo.89ebe939e36e48f63e2f.png",
     "static/media/react.png": "/My-portfolio/static/media/react.a544fd8cf64d82898e91.png",
     "static/media/LOGOVR.png": "/My-portfolio/static/media/LOGOVR.8a0f2c218957cec3c258.png",
@@ -23,10 +24,10 @@
     "static/media/linkedin.webp": "/My-portfolio/static/media/linkedin.d59e4162eaf7ed114f7c.webp",
     "index.html": "/My-portfolio/index.html",
     "main.deb13189.css.map": "/My-portfolio/static/css/main.deb13189.css.map",
-    "main.e24a8f78.js.map": "/My-portfolio/static/js/main.e24a8f78.js.map"
+    "main.d1af9640.js.map": "/My-portfolio/static/js/main.d1af9640.js.map"
   },
   "entrypoints": [
     "static/css/main.deb13189.css",
-    "static/js/main.e24a8f78.js"
+    "static/js/main.d1af9640.js"
   ]
 }
