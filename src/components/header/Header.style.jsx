@@ -94,19 +94,24 @@ export const Header_Wrapper_first = styled.div`
   }
   @media (max-width:1288px){
     margin-left:9%;
-    width:250%;
+    width:280%;
     justify-content:space-between;
   }
-  @media(max-width:1033px){
-    width:320%;
+  @media(max-width:1049px){
+    width:380%;
     margin-left:10%;
   }
   @media (max-width:998px){
-    width:450%;
-    margin-left:8%;
+    width:480%;
+    margin-left:6%;
   }
-   @media (max-width:896px){
-    width:500%;
+   @media (max-width:910px){
+    width:630%;
+    margin-left:2%;
+    justify-content:space-between;
+   }
+    @media (max-width:845px){
+    width:650%;
     margin-left:1%;
     justify-content:space-between;
    }

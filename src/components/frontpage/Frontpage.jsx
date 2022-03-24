@@ -26,7 +26,7 @@ const Frontpage = () => {
     <>
     <Frontpage_container> 
       <Frontpage_wrapper>
-        <Description>Hello <span>&#128075; &#128516;</span>. I'm </Description>
+        <Description>Hello <span>&#128075; </span>. I'm </Description>
         <NameTitle> Viviann Rydh</NameTitle>
         <CareerTitle>Front-end web developer</CareerTitle>
         <Description>with a passion for building web applications with <strong style={{ color: '#61dafb' }}>&#x2764; React &#x2764;</strong>.</Description>
