@@ -40,7 +40,7 @@ export const AboutmeContainer = styled.div`
        margin-left:10%;
        font-size:1.1rem;
        margin-top:10%;
-       text-align:center;
+       text-align:left;
      }
     @media(max-width:400px){
       width:65%;
@@ -113,7 +113,7 @@ export const SkillsList = styled.ul`
   @media (max-width:548px){
     width:80%;
     margin-left: 0%;
-    text-align:flex-start;
+    text-align:left;
     font-size:1rem;
   }
   @media(max-width:400px){

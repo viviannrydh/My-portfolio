@@ -24,10 +24,10 @@ const Header = () => {
 
       <a href="#"><Header_logo src={VR} alt="" /></a>
       <Header_Wrapper_first>
-        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#aboutme">About me</HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
-        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#projects">Projects</HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
-        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#experience">Experience</HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
-        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#contact">Contact</HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
+        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#aboutme">About me </HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
+        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#projects">Projects </HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
+        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#experience">Experience </HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
+        <Header_Links><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span><HeaderLinkHref href="#contact">Contact </HeaderLinkHref><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#47;&#62;</span></Header_Links>
       </Header_Wrapper_first>
       <HamburgerMenuWrapper>
         <div onClick={toggleHamburger}>

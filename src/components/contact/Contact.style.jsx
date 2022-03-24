@@ -205,7 +205,7 @@ export const ContactItemIcons = styled.div`
   }
   @media(max-width:425px){
     width:88%;
-    margin-left:7%;
+    margin-left:6%;
   }
    @media(max-width:300px){
      width:100%;
@@ -246,7 +246,8 @@ export const ContactItemIconsFristLine = styled.div`
       width:100%;
     }
     @media (max-width:300px){
-      margin-left:-18%;
+      width:95%;
+      margin-left:-16%;
       justify-content:center;
     }
 `
