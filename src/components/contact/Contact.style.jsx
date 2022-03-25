@@ -34,7 +34,7 @@ export const ContactContainer = styled.div`
        margin-left:10%;
     }
     @media (max-width:689px){
-      margin-left:12%;
+      margin-left:10%;
     }
     @media(max-width:606px){
         width:80%;
