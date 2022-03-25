@@ -101,7 +101,7 @@ export const ProjectWrapper = styled.div`
   }
   @media (max-width:639px){
     width:90%;
-    margin-left:7%;
+    margin-left:5%;
   }
   @media(max-width:548px){
         flex-direction:column;
@@ -133,7 +133,7 @@ export const ProjectWrapperSecond= styled.div`
   }
   @media (max-width:639px){
     width:90%;
-    margin-left:7%;
+    margin-left:5%;
   }
   @media(max-width:548px){
         flex-direction:column-reverse;

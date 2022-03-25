@@ -46,8 +46,8 @@ const Project = () => {
           the app will keep track of how many correct answers kids have got to motivate them to keep going.</ProjectDescriptionLeft>
           <span>React</span>
           <ProjectLinksIconsLeft>
-            <GithubLink href="https://github.com/viviannrydh/Math-app-for-kids" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
-            <GithubLink href="https://viviannrydh.github.io/Math-app-for-kids/" target="_blank"><WebIcon style={{ fontSize: '36px' }} /></GithubLink>
+            <GithubLink href="https://github.com/viviannrydh/Math-app-for-kids" target="_blank"><GitHubIcon style={{ fontSize: '25px' }} /></GithubLink>
+            <GithubLink href="https://viviannrydh.github.io/Math-app-for-kids/" target="_blank"><WebIcon style={{ fontSize: '30px' }} /></GithubLink>
           </ProjectLinksIconsLeft>
         </ProjectIntroductionLeft>
         <ProjectImgRight src={Math} alt="" /> 
@@ -69,8 +69,8 @@ const Project = () => {
           or the task could be deleted directly from the task list by clicking on the trash button.</ProjectDescription>
           <span>React</span> 
           <ProjectLinksIcons>
-            <GithubLink href="https://github.com/viviannrydh/Todo-App" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink> 
-            <GithubLink href="https://viviannrydh.github.io/Todo-App/" target="_blank"><WebIcon style={{ fontSize: '36px' }} /></GithubLink>
+            <GithubLink href="https://github.com/viviannrydh/Todo-App" target="_blank"><GitHubIcon style={{ fontSize: '25px' }} /></GithubLink> 
+            <GithubLink href="https://viviannrydh.github.io/Todo-App/" target="_blank"><WebIcon style={{ fontSize: '30px' }} /></GithubLink>
           </ProjectLinksIcons>
         </ProjectIntroduction>   
         </ProjectWrapper>
@@ -87,8 +87,8 @@ const Project = () => {
             <ProjectDescriptionLeft>My personal portfolio website with information about my skills, educational background, work experience, and projects that I have built.</ProjectDescriptionLeft>
           <span>React, framer motion, styled-component</span>
           <ProjectLinksIconsLeft>
-              <GithubLink href="https://github.com/viviannrydh/My-portfolio" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
-              <GithubLink href="https://viviannrydh.github.io/My-portfolio/" target="_blank"><WebIcon style={{ fontSize: '36px' }} /></GithubLink>
+              <GithubLink href="https://github.com/viviannrydh/My-portfolio" target="_blank"><GitHubIcon style={{ fontSize: '25px' }} /></GithubLink>
+              <GithubLink href="https://viviannrydh.github.io/My-portfolio/" target="_blank"><WebIcon style={{ fontSize: '30px' }} /></GithubLink>
           </ProjectLinksIconsLeft>
         </ProjectIntroductionLeft>
           <ProjectImgRight src={SelfPortfolio} alt="" />
@@ -108,7 +108,7 @@ const Project = () => {
             <ProjectDescription>A movie app was created for fetching and searching for movies. and all the data are from the <a href="http://www.omdbapi.com" target="_blank" style={{ textDecoration: 'none', color: 'skyblue' }}>IMDb Movie</a> API;</ProjectDescription>
           <span>React, API</span>
           <ProjectLinksIcons>
-            <GithubLink href="https://github.com/viviannrydh/movieapi" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
+            <GithubLink href="https://github.com/viviannrydh/movieapi" target="_blank"><GitHubIcon style={{ fontSize: '25px' }} /></GithubLink>
             {/* <WebIcon style={{ fontSize: '36px' }} />*/}
           </ProjectLinksIcons>
         </ProjectIntroduction>
@@ -126,8 +126,8 @@ const Project = () => {
             <ProjectDescriptionLeft>An immigration service website that I built for my friend that provides information about their company, services, fees, certifications, etc.</ProjectDescriptionLeft>
           <span>React</span>
           <ProjectLinksIconsLeft>
-            <GithubLink href="https://github.com/viviannrydh/canada-country-road-immigration" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
-            <GithubLink href="https://canada-immigration.herokuapp.com/" target="_blank"><WebIcon style={{ fontSize: '36px' }} /></GithubLink>
+            <GithubLink href="https://github.com/viviannrydh/canada-country-road-immigration" target="_blank"><GitHubIcon style={{ fontSize: '25px' }} /></GithubLink>
+            <GithubLink href="https://canada-immigration.herokuapp.com/" target="_blank"><WebIcon style={{ fontSize: '30px' }} /></GithubLink>
           </ProjectLinksIconsLeft>
         </ProjectIntroductionLeft>
         <ProjectImgRight src={CanadaCountryRoad} alt="" />
@@ -147,7 +147,7 @@ const Project = () => {
             <ProjectDescription>The amazon mini-app was built by following <a href="https://www.youtube.com/watch?v=1_IYL9ZMR_Y" style={{ textDecoration: 'none', color: 'skyblue' }} target="_blank">a tutorial on YouTube</a>. In this app, Firebase was used as the database to store all the products images. The users could add their favorite products to the shopping cart and remove the product from the cart as well if they do not want to buy it.</ProjectDescription>
           <span>React. Firebase</span>
           <ProjectLinksIcons>
-            <GithubLink href="https://github.com/viviannrydh/amazon-clone" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
+            <GithubLink href="https://github.com/viviannrydh/amazon-clone" target="_blank"><GitHubIcon style={{ fontSize: '25px' }} /></GithubLink>
             {/*<WebIcon style={{ fontSize: '36px' }} />*/}
           </ProjectLinksIcons>
         </ProjectIntroduction>
@@ -161,12 +161,12 @@ const Project = () => {
         viewport={{ once: true }}
       >
         <ProjectIntroductionLeft>
-          <ProjectTitle><GithubLink href="https://github.com/viviannrydh/Cooking-API-AJAX-JSON/tree/main/Restaurant%20project" target="_blank">Cook-Book</GithubLink></ProjectTitle>
+            <ProjectTitle><GithubLink href="https://viviannrydh.github.io/Cooking-API-AJAX-JSON/" target="_blank">Cook-Book</GithubLink></ProjectTitle>
             <ProjectDescriptionLeft>Recipe collection built on top of the <a href="https://www.themealdb.com/" style={{ textDecoration: 'none', color:'skyblue' }} target="_blank">mealDB</a> API. Users can search for recipes by name, ingredients or country of origin.</ProjectDescriptionLeft>
           <span>React. API. AJAX</span>
           <ProjectLinksIconsLeft>
-            <GithubLink href="https://github.com/viviannrydh/Cooking-API-AJAX-JSON/tree/main/Restaurant%20project" target="_blank"><GitHubIcon style={{ fontSize: '30px' }} /></GithubLink>
-            <WebIcon style={{ fontSize: '36px' }} />
+            <GithubLink href="https://github.com/viviannrydh/Cooking-API-AJAX-JSON/tree/main/Restaurant%20project" target="_blank"><GitHubIcon style={{ fontSize: '25px' }} /></GithubLink>
+              <GithubLink href="https://viviannrydh.github.io/Cooking-API-AJAX-JSON/" target="_blank"><WebIcon style={{ fontSize: '30px' }} /></GithubLink>
           </ProjectLinksIconsLeft>
         </ProjectIntroductionLeft>
         <ProjectImgRight src={Cookingbook} alt="" />
