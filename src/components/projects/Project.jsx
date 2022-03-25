@@ -144,7 +144,7 @@ const Project = () => {
         <ProjectImg src={Amazon} alt="" />
         <ProjectIntroduction>
           <ProjectTitle><GithubLink href="https://github.com/viviannrydh/amazon-clone" target="_blank">Amazon Mini-clone</GithubLink></ProjectTitle>
-            <ProjectDescription>The amazon mini-app was built by following <a href="https://www.youtube.com/watch?v=1_IYL9ZMR_Y" style={{ textDecoration: 'none', color: 'skyblue' }} target="_blank">a tutorial on YouTube</a>. In this app, Firebase was used as the database to store all the products images. The users could add their favorite products to the shopping cart and remove the product from the cart as well if they do not want to buy it.</ProjectDescription>
+            <ProjectDescription>The amazon mini-app was built based on <a href="https://www.youtube.com/watch?v=1_IYL9ZMR_Y" style={{ textDecoration: 'none', color: 'skyblue' }} target="_blank">a tutorial on YouTube</a>. In this app, Firebase was used as the database to store all the products images. The users could add their favorite products to the shopping cart and remove the product from the cart as well if they do not want to buy it.</ProjectDescription>
           <span>React. Firebase</span>
           <ProjectLinksIcons>
             <GithubLink href="https://github.com/viviannrydh/amazon-clone" target="_blank"><GitHubIcon style={{ fontSize: '25px' }} /></GithubLink>

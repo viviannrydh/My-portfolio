@@ -23,7 +23,7 @@ const Aboutme = () => {
       <AboutmeContainer
         as={motion.div}
         animate={{ opacity: [0, 1] }}
-        transition={{ delay: 0.5 }} 
+        transition={{ delay: 0.2 }} 
       >
         <Title><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span>About me<span style={{ color: 'rgba(77, 217, 248, 1)' }}> &#47;&#62; </span><hr style={{ borderColor: 'rgba(57, 55, 55, 1)'}} /></Title>
       <AboutmeWrapper>
