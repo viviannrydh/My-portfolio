@@ -29,7 +29,7 @@ const Frontpage = () => {
         <Description>Hello <span>&#128075; </span>. I'm </Description>
         <NameTitle> Viviann Rydh</NameTitle>
         <CareerTitle>Front-end web developer</CareerTitle>
-          <Description>Passionate about building web applications with <strong style={{ color: '#61dafb' }}>&#x2764; React &#x2764;</strong>.</Description>
+          <Description>with a passion for building web applications with <strong style={{ color: '#61dafb' }}>&#x2764; React &#x2764;</strong>.</Description>
         {/*<Slogen>I am passionated about building web applications with React.</Slogen>*/}
         <ContactInfoWrapper>
           <Contact_btn>Contact me</Contact_btn>
