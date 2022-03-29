@@ -218,6 +218,7 @@ export const ContactIcons = styled.div`
     display:flex;
     width:30%;
     margin-left:5%;
+    margin-top:1.2%;
     flex-direction:row;
     justify-content:space-around;
      @media(max-width:779px){
