@@ -34,7 +34,7 @@ export const ProjectsContainer = styled.div`
       margin-left:5%;
     }
     @media (max-width:689px){
-      margin-left:7%;
+      margin-left:5%;
     }
     @media (max-width:639px){
       margin-left:5%;
@@ -51,13 +51,13 @@ export const ProjectsContainer = styled.div`
        margin-left:5%;
     }
      @media(max-width:425px){
-        width:90%;
-        margin-left:2%;
+        width:100%;
+        margin-left:0%;
         flex-direction:column;
      }
   @media (max-width:400px){
-    width:90%;
-    margin-left:5%;
+    width:100%;
+    margin-left:0%;
     text-align:center;
     justify-content:space-around;
     margin-top:20%;
@@ -204,8 +204,8 @@ export const ProjectIntroduction = styled.div`
      margin-left:5%;
   }
   @media (max-width:769px){
-     width:100%;
-     margin-left:0%;
+     width:90%;
+     margin-left:5%;
   }
   
 `
@@ -218,8 +218,8 @@ export const ProjectIntroductionLeft = styled.div`
      margin-left:5%;
   }
   @media (max-width:769px){
-     width:100%;
-     margin-left:0%;
+     width:90%;
+     margin-left:5%;
   }
 
 `
