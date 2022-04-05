@@ -112,7 +112,7 @@ export const SkillsList = styled.ul`
   font-size:1.5rem;
   @media (max-width:548px){
     width:80%;
-    margin-left: 0%;
+    margin-left: -5%;
     text-align:left;
     font-size:1rem;
   }
@@ -136,6 +136,11 @@ export const SkillsPair = styled.div`
 `
 export const List = styled.li`
    font-size:1.2rem;
+   @media(max-width:548px){
+    font-size:1rem;
+    text-align:flex-start;
+
+   }
    @media(max-width:400px){
      font-size:0.9rem;
      text-align:flex-start;
