@@ -47,7 +47,7 @@ const Contact = () => {
     <ContactContainer id="contact">
       <Title><span style={{ color: 'rgba(77, 217, 248, 1)' }}>&#60;</span> Get in touch<span style={{ color: 'rgba(77, 217, 248, 1)' }}> &#47;&#62; </span><hr style={{ borderColor: ' rgba(57, 55, 55, 1)' }} /></Title>
       <ContactWrapper>
-        <MyWish>Thank you for visiting my website. Hope I am the candidate you are looking for &#128516;. My inbox is always open, whether you have any question or just want to say Hi,  I am just one click away.</MyWish>
+        {/*<MyWish>Thank you for visiting my website. Hope I am the candidate you are looking for &#128516;. My inbox is always open, whether you have any question or just want to say Hi,  I am just one click away.</MyWish>
         <ContactForm ref={form} onSubmit={sendEmail}>
           <NameandEmail>
             <NameInputItem type="text" name="name" placeholder="Name"/>
@@ -56,7 +56,7 @@ const Contact = () => {
             <InputItem type="subject" name="subject" placeholder="Subject" />
           <MessageTextArea name="message" placeholder="Message"/>
           <SubmitInput type="submit" value="Send &#128075;" />
-        </ContactForm>
+        </ContactForm>*/}
         <ContactItemIcons>
           <ContactItemIconsFristLine>
             <ContactItem>
