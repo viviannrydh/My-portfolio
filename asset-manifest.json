@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/My-portfolio/static/css/main.deb13189.css",
+    "main.js": "/My-portfolio/static/js/main.de70a5d9.js",
+    "static/media/CanadaCountryRoad.png": "/My-portfolio/static/media/CanadaCountryRoad.e315232bd3ef8d1f4028.png",
+    "static/media/cooking.png": "/My-portfolio/static/media/cooking.f72a7a8ff30b0e8c6791.png",
+    "static/media/movieAPI.jpg": "/My-portfolio/static/media/movieAPI.ebe1e187b002dbc0ad7c.jpg",
+    "static/media/Malaga.png": "/My-portfolio/static/media/Malaga.7c737b6b7bd7ec21525f.png",
+    "static/media/mathApp.jpg": "/My-portfolio/static/media/mathApp.38d314cc2f384c6a7f94.jpg",
+    "static/media/amazon-clone.jpg": "/My-portfolio/static/media/amazon-clone.f1373f9eba080fa1237a.jpg",
+    "static/media/selfie-without-whitecircle.png": "/My-portfolio/static/media/selfie-without-whitecircle.945f7959ba0386decee5.png",
+    "static/media/selfie.jpg": "/My-portfolio/static/media/selfie.4b67c4b1f1e6482f389e.jpg",
+    "static/media/medium-blue.png": "/My-portfolio/static/media/medium-blue.c41b066edb32a306d100.png",
+    "static/media/todomedium.png": "/My-portfolio/static/media/todomedium.165325d19cd0c8562e8c.png",
+    "static/media/logo.png": "/My-portfolio/static/media/logo.89ebe939e36e48f63e2f.png",
+    "static/media/react.png": "/My-portfolio/static/media/react.a544fd8cf64d82898e91.png",
+    "static/media/LOGOVR.png": "/My-portfolio/static/media/LOGOVR.8a0f2c218957cec3c258.png",
+    "static/media/skills.png": "/My-portfolio/static/media/skills.5fcf0cac5addec498419.png",
+    "static/media/Instagram-Icon.png": "/My-portfolio/static/media/Instagram-Icon.0259c28ca1d67eb32160.png",
+    "static/media/html.jpg": "/My-portfolio/static/media/html.4a971b56121145aa6280.jpg",
+    "static/media/css.png": "/My-portfolio/static/media/css.02d225c7df0b28341d8d.png",
+    "static/media/js.png": "/My-portfolio/static/media/js.4e6c1ce291921b473e53.png",
+    "static/media/typescript.png": "/My-portfolio/static/media/typescript.29073194eeda5803e7f3.png",
+    "static/media/linkedin.webp": "/My-portfolio/static/media/linkedin.d59e4162eaf7ed114f7c.webp",
+    "index.html": "/My-portfolio/index.html",
+    "main.deb13189.css.map": "/My-portfolio/static/css/main.deb13189.css.map",
+    "main.de70a5d9.js.map": "/My-portfolio/static/js/main.de70a5d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb13189.css",
+    "static/js/main.de70a5d9.js"
+  ]
+}
