@@ -1,3 +1,3 @@
-My personal website which had been deployed as a Github page: https://viviannrydh.github.io/My-portfolio/
+My personal website is: https://viviannrydh.github.io/My-portfolio/
 
-Welcome to visit. Thank you.
+Welcome to visit. 
