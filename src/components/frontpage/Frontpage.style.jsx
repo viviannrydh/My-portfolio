@@ -228,9 +228,12 @@ export const ContactIcons = styled.div`
 
 
 `
+export const Contact_a = styled.a`
+    width:100%;
+`
 export const Contact_btn = styled.button`
     height:50px;
-    width:65%;
+    width:100%;
     padding:10px;
     background-color:rgb(36, 36, 37);
     color:white;

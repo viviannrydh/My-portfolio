@@ -12,6 +12,7 @@ import {
   Frontpage_wrapper,
   Description,
   CareerTitle,
+  Contact_a,
   Contact_btn,
   Selfie_img,
   SelfieContainer,
@@ -32,7 +33,7 @@ const Frontpage = () => {
           <Description>with a passion for building web applications with <strong style={{ color: '#61dafb' }}>&#x2764; React &#x2764;</strong>.</Description>
         {/*<Slogen>I am passionated about building web applications with React.</Slogen>*/}
         <ContactInfoWrapper>
-          <Contact_btn>Contact me</Contact_btn>
+            <Contact_a href="#contact"><Contact_btn>Contact me</Contact_btn></Contact_a>
           <ContactIcons>
             <a href="https://github.com/viviannrydh?tab=repositories" target="_blank"><GitHubIcon style={{ color: 'white', fontSize: '28px', marginTop: '20px' }} /></a>
               <a href="https://www.linkedin.com/in/viviann-rydh/" target="_blank"><img src={LinkedInImg} style={{ width: '30px', marginTop: '20px' }} /></a>
