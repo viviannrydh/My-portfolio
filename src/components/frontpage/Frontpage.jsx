@@ -1,5 +1,5 @@
 import React from 'react';
-import selfie from '../../images/selfie-without-whitecircle.png';
+import selfie from '../../images/real.png';
 import logo from '../../images/logo.png';
 import AnimateBG from '../animateBG/AnimateBG';
 import { motion } from 'framer-motion';
